@@ -57,8 +57,7 @@ echo choosoe platform: Windows, Linux, MacOS
 :AppGit
 echo I am installing with Git
 call git clone https://github.com/tom-sapletta-com/devops/
-call cd devops
-call init.bat
+::call cd devops
 GOTO End
 
 :AppPython
@@ -71,5 +70,10 @@ GOTO End
 
 :End
 cd devops
+call init.bat
+cd devops
+::call cd devops
+:: call dir
+:: setx path "%path%;C:\Users\tom\WebstormProjects\do\devops"
 echo ...
 
