@@ -19,6 +19,14 @@ zip
     
     https://codeload.github.com/tom-sapletta-com/devops/zip/master
     
+    https://raw.githubusercontent.com/tom-sapletta-com/do/master/install.bat
+    
+    powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/tom-sapletta-com/do/master/install.bat -OutFile install.bat"
+    
+    
+    Invoke-WebRequest https://raw.githubusercontent.com/tom-sapletta-com/do/master/install.bat -O install.bat
+    
+    %extd% /download https://github.com/tom-sapletta-com/do/blob/master/install.bat
     
 ##### over windows or Linux
 

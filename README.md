@@ -6,6 +6,9 @@ after installation the installation file is removed
 ## DevOps Installer 
 for project 
 https://github.com/tom-sapletta-com/devops
+## Install
+
+    powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/tom-sapletta-com/do/master/install.bat -OutFile install.bat"
 
 ## clone
 https://github.com/tom-sapletta-com/do.git
