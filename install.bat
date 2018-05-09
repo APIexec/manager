@@ -1,4 +1,4 @@
-@ECHO OFF &SETLOCAL
+@ECHO OFF
 :: CONFIG
 set devops_path=%cd%
 set log_file=%devops_path%\logs.txt
