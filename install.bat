@@ -1,4 +1,5 @@
 @ECHO OFF
+:: SET PATH global
 :: CONFIG
 set devops_path=%cd%
 set log_file=%devops_path%\logs.txt
@@ -8,7 +9,14 @@ echo %log_time% %log_content% > %log_file%
 
 call color 02
 
-more logo.txt
+:: TODO: if onto exist get just TEXT
+::more logo.txt
+
+echo ,------.  ,------.,--.   ,--.,-----. ,------.  ,---.
+echo ^|  .-.  \ ^|  .---' \  `.'  /'  .-.  '^|  .--. ''   .-'
+echo ^|  ^|  \  :^|  `--,   \     / ^|  ^| ^|  ^|^|  '--' ^|`.  `-.
+echo ^|  '--'  /^|  ^`---.   ^\   ^/  '  '-'  '^|  ^| --' .-'    ^|
+echo `-------' `------'    `-'    `-----' `--'     `-----'
 echo DevOps Project Tool
 
 :: 1
