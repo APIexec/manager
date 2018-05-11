@@ -32,4 +32,16 @@ OR
 [How to download & install from github repository](INSTALL.md)
 
 
+### TODO
+
+One file for all command:
+init - prepare environment to run install
+install
+remove
+update
+
+    manager.bat [init|init|install|remove|update]
+
+
+
 
