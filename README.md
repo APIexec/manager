@@ -34,6 +34,8 @@ OR
 
 ### TODO
 
+logs
+
 One file for all command:
 init - prepare environment to run install
 install
